@@ -1,0 +1,283 @@
+
+/*全局设置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-between{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-normal{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.wrapper{
+
+}
+
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.hidden-md{
+    display: none!important;
+}
+
+
+
+/*顶部导航栏*/
+.main .navigation{
+    padding: 16px 0;
+    background-color: #24292e;
+}
+.main .navigation .body .logo{
+    margin-right: 20px;
+}
+.main .navigation .body .left-item{
+    margin-right: 12px;
+}
+.main .navigation .body .ui.button{
+    margin-right: 0;
+    margin-left: 16px;
+    padding: 2px 20px;
+    line-height: 14px;
+    height: 32px;
+}
+.main .navigation .body .ui.menu{
+    margin: 0;
+    background-color: transparent;
+}
+.main .navigation .body .ui.dropdown{
+    height: 100%;
+    font-size: 16px;
+    color: white;
+}
+.main .navigation .body .right .prompt{
+    background-color: #545454;
+    color: white;
+}
+/*顶部导航栏*/
+
+
+/*项目信息头部*/
+.main>.header{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e1e4e8;
+}
+.main>.header .body{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.main>.header .body .title{
+    font-size: 18px;
+    color: #0366d6;
+}
+.main>.header .body span{
+    font-weight: 600;
+}
+.main>.header .body .ui.menu{
+    margin: 0;
+}
+.main>.header .body .ui.menu .ui.buttons{
+    margin-left: 10px;
+}
+.main>.header .body .ui.menu .ui.button{
+    font-size: 12px;
+    padding: 3px 10px;
+    height: 26px;
+    background-color: white;
+    border: 1px solid #cdcecf;
+}
+.main>.header .body .ui.menu .ui.buttons .ui.button:first-child{
+    border-right: none;
+}
+/*项目信息头部*/
+
+
+
+/*描述栏*/
+.main>.body .description{
+    font-size: 16px;
+    color: #24292e;
+}
+.main>.body .description p{
+    line-height: 24px;
+}
+.main>.body .description a{
+    color: #0366d6;
+}
+/*描述栏*/
+
+
+
+/*标签栏*/
+.main .body .tags{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.main .body .tags .ui.label{
+    background-color: #f1f8ff;
+    color: #0366d6;;
+    font-size: 12px;
+    font-weight: 400;
+}
+/*标签栏*/
+
+
+
+/*项目头部*/
+.main .body .header{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.main .body .header .record{
+    display: flex;
+    display: -webkit-flex;
+}
+.main .body .header .record .ui.button{
+    border: none;
+}
+.main .body .header .line{
+    display: flex;
+    display: -webkit-flex;
+}
+.main .body .header .line .item{
+    height: 8px;
+}
+.main .body .header .line .js{
+    flex-grow: 49;
+    background-color: #cca941;
+}
+.main .body .header .line .css{
+    flex-grow: 33;
+    background-color: #ff5a58;
+}
+.main .body .header .line .html{
+    flex-grow: 18;
+    background-color: #a174c6;
+}
+/*项目头部*/
+
+
+
+/*项目内容操作栏*/
+.main>.body .operation{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.main>.body  .operation .ui.button{
+    font-size: 13px;
+    padding: 8px 22px;
+    /*border: 1px solid #e2e3e4;*/
+}
+/*项目内容操作栏*/
+
+
+
+/*项目内容列表*/
+.main>.body .list{
+    margin-bottom: 10px;
+}
+.main>.body .list .ui.list{
+    border-bottom: 1px solid #e1e4e8;
+    border-left: 1px solid #e1e4e8;
+    border-right: 1px solid #e1e4e8;
+    margin: 0;
+}
+.main>.body .list .ui.list .item{
+    padding: 6px 10px;
+    border-bottom: 1px solid #e1e4e8;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: rgba(3,47,98,.5);
+}
+.main>.body .list .ui.list .item a{
+    font-size: 14px;
+    color: #0366d6;
+    font-weight: 400;
+}
+.main>.body .list .ui.list .item .description{
+    font-size: 14px;
+    color: #6a737d;
+    font-weight: 400;
+    margin-left: 200px;
+}
+.main>.body .list .ui.list .item .content{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.main>.body .list>.header{
+    border: 1px solid #c8e1ff;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.main>.body .list>.header a{
+}
+/*项目内容列表*/
+
+
+
+/*ReadMe*/
+.main>.body .readme{
+    border-bottom: 1px solid #d1d5da;
+    border-left: 1px solid #d1d5da;
+    border-right: 1px solid #d1d5da;
+}
+.main>.body .readme .header{
+    border-bottom: 1px solid #d1d5da;
+    background-color: #f6f8fa;
+}
+.main>.body .readme .header h3{
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main>.body .readme .readme-content{
+    padding: 40px;
+}
+/*ReadMe*/
+
+
+
+/*页脚*/
+.main>.body .footer{
+    margin-top: 40px;
+    padding: 40px 0 48px 0;
+    border-top: 1px solid #e1e4e8;
+}
+.main>.body .footer .item{
+    margin-right: 16px;
+    font-size: 13px;
+}
+/*页脚*/
+
+
